@@ -34,6 +34,6 @@ if choice == 's':
     else:
         print(f'\nO termo {word.capitalize()} foi encontrado {reading} vezes.\n')
         new_word = input(f"Por qual palavra ou frase você deseja modificar o termo anterior?\n")
-        print(f'\n...\n O texto modificado ficou assim: \n')
+        print(f'\n...\nO texto modificado ficou assim: \n')
     
-        rewrinting = rewritingfile('readme.txt', substitutingfile(word, new_word, 'readme.txt'))
+        rewriting = rewritingfile('readme.txt', substitutingfile(word, new_word, 'readme.txt'))
