@@ -2,7 +2,6 @@ from re import sub
 # sub(old_word, new_word, text.read())
 
 class TextModifier:
-
     #função dedicada à leitura e contagem de vezes em que o termo aparece.
     def readingfile(text, word):
         c = 0
